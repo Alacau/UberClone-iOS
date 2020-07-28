@@ -76,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44AC0FEB24D0D47B0004115F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		44FAE69224CFD8EC0027DFDE = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +106,11 @@
 		44FAE69D24CFD8EC0027DFDE /* UberClone-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				44FAE6CE24D0D4300027DFDE /* Model */,
+				44FAE6D024D0D4330027DFDE /* View */,
+				44FAE6CF24D0D4320027DFDE /* Controller */,
+				44FAE6D124D0D4340027DFDE /* Service */,
+				44AC0FEB24D0D47B0004115F /* Utils */,
 				44FAE69E24CFD8EC0027DFDE /* AppDelegate.swift */,
 				44FAE6A024CFD8EC0027DFDE /* SceneDelegate.swift */,
 				44FAE6A224CFD8EC0027DFDE /* ViewController.swift */,
@@ -126,6 +138,37 @@
 				44FAE6C224CFD8ED0027DFDE /* Info.plist */,
 			);
 			path = "UberClone-iOSUITests";
+			sourceTree = "<group>";
+		};
+		44FAE6CE24D0D4300027DFDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44FAE6CF24D0D4320027DFDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			path = "New Group/Controller";
+			sourceTree = "<group>";
+		};
+		44FAE6D024D0D4330027DFDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "New Group/New Group/View";
+			sourceTree = "<group>";
+		};
+		44FAE6D124D0D4340027DFDE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			path = "New Group/New Group/New Group/Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
