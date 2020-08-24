@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4448A6E724F34B7B00FFB4AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448A6E624F34B7B00FFB4AC /* Extensions.swift */; };
 		446BACCC24D0D6AF005E3F77 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446BACCB24D0D6AF005E3F77 /* SignInController.swift */; };
 		44FAE69F24CFD8EC0027DFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAE69E24CFD8EC0027DFDE /* AppDelegate.swift */; };
 		44FAE6A124CFD8EC0027DFDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAE6A024CFD8EC0027DFDE /* SceneDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4448A6E624F34B7B00FFB4AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		446BACCB24D0D6AF005E3F77 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInController.swift; path = "UberClone-iOS/Controller/SignInController.swift"; sourceTree = SOURCE_ROOT; };
 		44FAE69B24CFD8EC0027DFDE /* UberClone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UberClone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FAE69E24CFD8EC0027DFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		44AC0FEB24D0D47B0004115F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4448A6E624F34B7B00FFB4AC /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				446BACCC24D0D6AF005E3F77 /* SignInController.swift in Sources */,
 				44FAE69F24CFD8EC0027DFDE /* AppDelegate.swift in Sources */,
 				44FAE6A124CFD8EC0027DFDE /* SceneDelegate.swift in Sources */,
+				4448A6E724F34B7B00FFB4AC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
