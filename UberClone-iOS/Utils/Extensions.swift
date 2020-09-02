@@ -17,7 +17,9 @@ extension UIView {
         paddingTop: CGFloat = 0,
         paddingLeft: CGFloat = 0,
         paddingBottom: CGFloat = 0,
-        paddingRight: CGFloat = 0) {
+        paddingRight: CGFloat = 0,
+        width: CGFloat?,
+        height: CGFloat?) {
         
     }
 }
