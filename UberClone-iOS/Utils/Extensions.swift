@@ -21,5 +21,6 @@ extension UIView {
         width: CGFloat?,
         height: CGFloat?) {
         
+        translatesAutoresizingMaskIntoConstraints = false
     }
 }
